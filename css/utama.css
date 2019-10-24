@@ -1,0 +1,552 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: lavender;
+}
+
+.fon {
+    font-family: Courier;
+}
+
+.navitem {
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 7px;
+    font-family: Capriola;
+}
+
+.navitem:hover {
+    background-color: white;
+    padding: 7px;
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+.tengah {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    padding: 5px 100px 5px 100px;
+    opacity: 0.6;
+    border-radius: 20px;
+}
+
+.tengahs {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tengah span {
+    font-size: 51px;
+}
+
+.kolom-2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.kolom-1 {
+    box-shadow: 0px 7px 7px gray;
+    border: 2px solid darkslateblue;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: white;
+}
+
+.footers {
+    background-color: darkslateblue;
+    width: 100%;
+    height: 200px;
+}
+
+.para {
+    background-image: url("../gambar/u.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paras {
+    background-image: url("../gambar/testimo.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parass {
+    background-image: url("../gambar/kontek.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parasss {
+    background-image: url("../gambar/sampul.png");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parat {
+    text-align: center;
+}
+
+.parat span {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    opacity: 0.6;
+    padding: 10px 60px 10px 60px;
+    font-size: 36px;
+}
+
+#particles-js {
+    height: 400px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.m {
+    background-color: darkslateblue;
+    padding: 55px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mm {
+    background-color: darkslateblue;
+    padding: 15px;
+    box-shadow: 0px 6px 7px gray;
+}
+
+.n {
+    background-color: slateblue;
+    padding: 55px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    height: 700px;
+}
+
+.jumbotron video {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*  object-fit is not supported on IE  */
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.jumbotron .container {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subskreb {
+    padding: -100px;
+}
+
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+.contact-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    border-radius: 6rem;
+    width: 13%;
+    margin-top: -4%;
+    transform: rotate(35deg);
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: slateblue;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: darkslateblue;
+    border: none;
+    cursor: pointer;
+}
+
+.s {
+    background: linear-gradient(to bottom left, darkslateblue, slateblue, slateblue);
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nap {
+        display: none;
+    }
+    .naps {
+        width: 100px;
+    }
+}
+
+@font-face {
+    font-family: Capriola;
+    src: url(../fonts/Capriola-Regular.ttf);
+}
+
+@font-face {
+    font-family: Overpass;
+    src: url(../fonts/overpass-bold.otf);
+}
+
+@font-face {
+    font-family: simplifica;
+    src: url(../fonts/SIMPLIFICA_Typeface.ttf);
+}
+
+.c {
+    font-family: Overpass;
+    background-color: white;
+    color: black;
+}
+
+.c:hover {
+    background-color: darkslateblue;
+    color: white;
+}
+
+.vis {
+    background-color: white;
+    padding: 20px;
+    margin: 100px 0px;
+    border-radius: 20px;
+    border: 2px solid darkslateblue;
+}
+
+.visi h2 {
+    font-family: Capriola;
+    padding-bottom: 5px;
+    border-bottom: 2px solid darkslateblue;
+}
+
+.misi h2 {
+    font-family: Capriola;
+    padding-bottom: 5px;
+    border-bottom: 2px solid darkslateblue;
+}
+
+.visi ul li {
+    margin: 10px;
+}
+
+.visi {
+    border-right: 2px solid darkslateblue;
+}
+
+#my,
+#mys {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid darkslateblue;
+    margin-bottom: 100px;
+}
+
+.tulisan {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.tulisan h2 {
+    background-color: slateblue;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.kotak {
+    background: linear-gradient(to bottom left, slateblue, darkslateblue, darkslateblue);
+    text-align: center;
+    padding: 80px;
+    box-shadow: 0px 7px 7px gray;
+}
+
+.kotak h3 {
+    color: white;
+    font-family: Capriola;
+}
+
+.kotakpan {
+    background-color: white;
+    box-shadow: 0px 7px 7px gray;
+    text-align: center;
+}
+
+.kotakpan h3 {
+    font-family: Capriola;
+}
+
+.fixed-top.scrolled {
+    background-color: darkslateblue !important;
+    color: black !important;
+    transition: background-color 300ms linear;
+    box-shadow: 0px 2px 9px black;
+}
+
+.napp {
+    background-color: transparent;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 9999;
+    background-image: linear-gradient(to top, dodgerblue 0%, darkslateblue 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 130px;
+    height: 170px;
+    position: relative;
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    z-index: 1;
+    transform: scale(0);
+    transition: all 0.2s ease;
+}
+
+.loader .txt {
+    width: 120%;
+    text-align: center;
+    position: absolute;
+    bottom: -50px;
+    left: -12%;
+    font-family: Capriola;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.loader .code {
+    position: absolute;
+    z-index: 99;
+    bottom: -3px;
+    -webkit-animation-name: spaceboots;
+    -webkit-animation-duration: 0.8s;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+.loader .box {
+    width: 100%;
+    height: 140px;
+    display: block;
+    color: white;
+    position: absolute;
+    top: -70px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.loader .box::before,
+.loader .box::after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.loader .box:nth-child(1)::before {
+    font-size: 20px;
+    content: "\f13b";
+    animation: a 1.1s linear infinite;
+}
+
+.loader .box:nth-child(1)::after {
+    content: "\f13c";
+    animation: b 1.3s linear infinite;
+}
+
+.loader .box:nth-child(2)::before {
+    content: "\f121";
+    font-size: 25px;
+    animation: c 0.9s linear infinite;
+}
+
+.loader .box:nth-child(2)::after {
+    content: "\f19a ";
+    animation: d 0.7s linear infinite;
+}
+
+.loader.amit::before,
+.loader.amit::after {
+    transform: scale(1);
+}
+
+@keyframes a {
+    0% {
+        transform: translate(30px, 0) rotate(30deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(30px, 150px) rotate(-50deg);
+        opacity: 1;
+    }
+}
+
+@keyframes b {
+    0% {
+        transform: translate(50px, 0) rotate(-40deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(40px, 150px) rotate(80deg);
+        opacity: 1;
+    }
+}
+
+@keyframes c {
+    0% {
+        transform: translate(70px, 0) rotate(10deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(60px, 150px) rotate(70deg);
+        opacity: 1;
+    }
+}
+
+@keyframes d {
+    0% {
+        transform: translate(30px, 0) rotate(-50deg);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(45px, 150px) rotate(30deg);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes spaceboots {
+    0% {
+        -webkit-transform: translate(2px, 1px) rotate(0deg);
+    }
+    10% {
+        -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+    }
+    20% {
+        -webkit-transform: translate(-3px, 0px) rotate(1deg);
+    }
+    30% {
+        -webkit-transform: translate(0px, 2px) rotate(0deg);
+    }
+    40% {
+        -webkit-transform: translate(1px, -1px) rotate(1deg);
+    }
+    50% {
+        -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+    }
+    60% {
+        -webkit-transform: translate(-3px, 1px) rotate(0deg);
+    }
+    70% {
+        -webkit-transform: translate(2px, 1px) rotate(-1deg);
+    }
+    80% {
+        -webkit-transform: translate(-1px, -1px) rotate(1deg);
+    }
+    90% {
+        -webkit-transform: translate(2px, 2px) rotate(0deg);
+    }
+    100% {
+        -webkit-transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
