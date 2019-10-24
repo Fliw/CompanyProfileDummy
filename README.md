@@ -1,0 +1,1 @@
+Web Statis Ini Menggunakan Bootstrap 4, AOS Js, Particles js, Serta Chart Js... Silahkan Baca konfigurasinya Di Halaman Resmi Mereka... Web Ini Statis Tanpa PHP, Hanya Frontend Full, Oleh Karna Itu, bisa Dibuka Diluar XAMPP/LAMPP
